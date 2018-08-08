@@ -10,86 +10,86 @@ export class EjerciciosService {
     listaEjercicios = [
         {
             'id': 1,
-            'nombreEjercicio': 'Messi',
-            'descripcionEjercicio': 'Lionel Messi',
-            'urlImg': 'https://www.diariogol.com/uploads/s1/57/29/84/9/leo-messi-dice-no_15_970x597.jpeg',
+            'nombreEjercicio': 'Press Militar',
+            'descripcionEjercicio': '4 series de 8 repeticiones',
+            'urlImg': 'https://www.gimnasioweb.com/imagenes/entradas/press-militar-sentado.jpg',
             'rutinaId': 1
         },
         {
             'id': 2,
-            'nombreEjercicio': 'Ronaldo',
-            'descripcionEjercicio': 'Cristiano Ronaldo',
-            'urlImg': 'https://e00-marca.uecdn.es/assets/multimedia/imagenes/2018/07/18/15319267746680.jpg',
+            'nombreEjercicio': 'Sentadillas',
+            'descripcionEjercicio': '3 series de 10 repeticiones',
+            'urlImg': 'https://www.cambiatufisico.com/wp-content/uploads/Sentadilla-Profunda.jpg',
             'rutinaId': 3
         },
         {
             'id': 3,
-            'nombreEjercicio': 'Valencia',
-            'descripcionEjercicio': 'Antonio Valencia',
-            'urlImg': 'https://s.hs-data.com/bilder/spieler/gross/25587.jpg',
+            'nombreEjercicio': 'Press de banca',
+            'descripcionEjercicio': '4 series de 10 repeticiones',
+            'urlImg': 'https://mundoentrenamiento.com/wp-content/uploads/2017/11/Press-de-banca-agarre-cerrado.jpg',
             'rutinaId': 5
         },
         {
             'id': 4,
-            'nombreEjercicio': 'Neymar',
-            'descripcionEjercicio': 'Neymar da Silva',
-            'urlImg': 'https://files.antena2.com.co/antena2/public/styles/imagen_despliegue/public/2018-07/neymar_psg_afp_0_0_0.jpg?itok=LjsU26K4',
+            'nombreEjercicio': 'Pectoral contractor',
+            'descripcionEjercicio': '4 series de 12 repeticiones',
+            'urlImg': 'https://www.gimnasioweb.com/imagenes/entradas/contractora.jpg',
             'rutinaId': 8
         },
         {
             'id': 5,
-            'nombreEjercicio': 'Mbappe',
-            'descripcionEjercicio': 'Kylian Mbappé',
-            'urlImg': 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Kylian_Mbapp%C3%A9_Russia_2018.jpg/245px-Kylian_Mbapp%C3%A9_Russia_2018.jpg',
+            'nombreEjercicio': 'Curl martillo',
+            'descripcionEjercicio': '4 series de 8 repeticiones',
+            'urlImg': 'https://www.cambiatufisico.com/wp-content/uploads/2011/03/Curl-con-mancuerna-alterno-agarre-martillo.jpg',
             'rutinaId': 8
         },
         {
             'id': 6,
-            'nombreEjercicio': 'Aguero',
-            'descripcionEjercicio': 'Sergio Aguero',
-            'urlImg': 'http://static.t13.cl/images/sizes/1200x675/1520791709-aguero.jpg',
+            'nombreEjercicio': 'Curl concentrado en banco',
+            'descripcionEjercicio': '4 series de 10 repeticiones',
+            'urlImg': 'https://www.cambiatufisico.com/wp-content/uploads/2011/03/Curl-con-mancuernas-alterno-en-banco-inclinado.jpg',
             'rutinaId': 6
         },
         {
             'id': 7,
-            'nombreEjercicio': 'Neuer',
-            'descripcionEjercicio': 'Manuel Neuer',
-            'urlImg': 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/20180602_FIFA_Friendly_Match_Austria_vs._Germany_Manuel_Neuer_850_0723.jpg/245px-20180602_FIFA_Friendly_Match_Austria_vs._Germany_Manuel_Neuer_850_0723.jpg',
+            'nombreEjercicio': 'Extension vertical con mancuerna',
+            'descripcionEjercicio': '3 series de 10 repeticiones',
+            'urlImg': 'http://www.musculaciontotal.com/wp-content/uploads/2014/10/extension-vertical-para-entrenar-triceps.jpg',
             'rutinaId': 7
         },
         {
             'id': 8,
-            'nombreEjercicio': 'Ramos',
-            'descripcionEjercicio': 'Sergio Ramos',
-            'urlImg': 'https://www.lavanguardia.com/r/GODO/LV/p5/WebSite/2018/03/10/Recortada/930069748_20180310155538-kkSD-U441415399549d6H-992x558@LaVanguardia-Web.jpg',
+            'nombreEjercicio': 'Press en polea',
+            'descripcionEjercicio': '4 series de 8 repeticiones',
+            'urlImg': 'https://www.sportlife.es/media/cache/big/upload/images/article/14069/article-ejercicios-triceps-gimnasio-595a0d67b5877.jpg',
             'rutinaId': 2
         },
         {
             'id': 9,
-            'nombreEjercicio': 'Bacca',
-            'descripcionEjercicio': 'Carlos Bacca',
-            'urlImg': 'https://futbolete.com/wp-content/uploads/2016/11/carlos-bacca-milan-pescara.jpg',
+            'nombreEjercicio': 'Pull ups',
+            'descripcionEjercicio': '3 series de 8 repeticiones',
+            'urlImg': 'https://javierchirinos.com/wp-content/uploads/2016/10/wide-grip-pull-up-exercise_opt.jpg',
             'rutinaId': 4
         },
         {
             'id': 10,
-            'nombreEjercicio': 'Suarez',
-            'descripcionEjercicio': 'Luis Suarez',
-            'urlImg': 'https://www.donbalon.com/assets/images/noticias/78955_636676956570340017.jpg',
+            'nombreEjercicio': 'Polea al pecho',
+            'descripcionEjercicio': '4 series de 8 repeticiones',
+            'urlImg': 'https://i0.wp.com/cronosfit.com/wp-content/uploads/2013/11/Polea-al-Pecho-para-desarrollar-la-espalda.jpg?resize=500%2C363&ssl=1',
             'rutinaId': 1
         },
         {
             'id': 11,
-            'nombreEjercicio': 'Navas',
-            'descripcionEjercicio': 'Keylor Navas',
-            'urlImg': 'https://cdn.futbolperuano.com/sdi/2018/07/19/keylor-navas-asi-se-despide-del-real-madrid-656561.jpg',
+            'nombreEjercicio': 'Crunch con cable',
+            'descripcionEjercicio': '4 series de 12 repeticiones',
+            'urlImg': 'https://www.mipielsana.com/wp-content/uploads/2012/04/Cable-Crunch.jpg',
             'rutinaId': 2
         },
         {
             'id': 12,
-            'nombreEjercicio': 'Rooney',
-            'descripcionEjercicio': 'Wayne Rooney',
-            'urlImg': 'https://cdn.images.express.co.uk/img/dynamic/67/590x/Wayne-Rooney-807732.jpg',
+            'nombreEjercicio': 'Elevacion de piernas',
+            'descripcionEjercicio': '3 series de 12 repeticiones',
+            'urlImg': 'https://ejerciciosencasa.es/wp-content/uploads/2013/11/Elev-de-piernas.jpg',
             'rutinaId': 5
         },
     ];

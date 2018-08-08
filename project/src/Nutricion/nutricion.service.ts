@@ -11,14 +11,14 @@ export class NutricionService {
 
 
     listaDieta = [
-        {'id': 1, 'tipoAlimento': 'FC Bacerlona',  'urlImg': 'https://upload.wikimedia.org/wikipedia/commons/4/47/Barcelona_fc_Logo.png', 'usuarioId': 3},
-        {'id': 2, 'tipoAlimento': 'Real Madrid', 'urlImg': 'https://vignette.wikia.nocookie.net/inciclopedia/images/4/4d/Real_madrid_logo.png/revision/latest?cb=20081102004028', 'usuarioId': 8},
-        {'id': 3, 'tipoAlimento': 'Juventus',  'urlImg': 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Juventus_FC_2017_logo.svg/2000px-Juventus_FC_2017_logo.svg.png', 'usuarioId': 2},
-        {'id': 4, 'tipoAlimento': 'Milan', 'urlImg': 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/2000px-Logo_of_AC_Milan.svg.png', 'usuarioId': 6},
-        {'id': 5, 'tipoAlimento': 'Manchester United', 'urlImg': 'http://pngimg.com/uploads/manchester_united/manchester_united_PNG21.png', 'usuarioId': 4},
-        {'id': 6, 'tipoAlimento': 'Manchester City', 'urlImg': 'http://pluspng.com/img-png/manchester-city-logo-png-manchester-city-supporters-club-logo-410.png', 'usuarioId': 7},
-        { 'id': 7, 'tipoAlimento': 'FC Bayern Munich',  'urlImg': 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg/1200px-FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg.png', 'usuarioId': 5},
-        { 'id': 8, 'tipoAlimento': 'PSG',  'urlImg': 'https://upload.wikimedia.org/wikipedia/fr/thumb/8/86/Paris_Saint-Germain_Logo.svg/768px-Paris_Saint-Germain_Logo.svg.png', 'usuarioId': 1}
+        {'id': 1, 'tipoAlimento': 'frutas',  'urlImg': 'http://www.extra.ec/documents/10157/0/768x480/0c24/768d432/none/5419931/EUFU/image_content_23690544_20170915124641.jpg', 'usuarioId': 3},
+        {'id': 2, 'tipoAlimento': 'cereales', 'urlImg': 'https://biotrendies.com/wp-content/uploads/2015/07/que-cereales-tienen-mas-fibra.jpg', 'usuarioId': 8},
+        {'id': 3, 'tipoAlimento': 'legumbres',  'urlImg': 'http://biografiadeunplato.com/wp-content/uploads/2016/10/Ingredientes-legumbres.jpg', 'usuarioId': 2},
+        {'id': 4, 'tipoAlimento': 'tuberculos', 'urlImg': 'https://www.jardineriaon.com/wp-content/uploads/2017/10/tuberculos.jpg', 'usuarioId': 6},
+        {'id': 5, 'tipoAlimento': 'carne', 'urlImg': 'https://www.curiosfera.com/wp-content/uploads/2016/07/Qu%C3%A9-es-la-carne-magra-y-cu%C3%A1les-son.jpg', 'usuarioId': 4},
+        {'id': 6, 'tipoAlimento': 'pescado', 'urlImg': 'https://rutadosfaros.gal/wp-content/uploads/2018/06/Bergondo-Restaurante-San-Isidro-Parrillada.jpg', 'usuarioId': 7},
+        { 'id': 7, 'tipoAlimento': 'lacteos',  'urlImg': 'https://saludalmaximo.com/wp-content/uploads/2017/11/alimentos-lacteos.jpg', 'usuarioId': 5},
+        { 'id': 8, 'tipoAlimento': 'verduras',  'urlImg': 'http://www.laprensa.hn/csp/mediapool/sites/dt.common.streams.StreamServer.cls?STREAMOID=TJKwYGnYX91fUZPggJ$avs$daE2N3K4ZzOUsqbU5sYtPuSdFIUzihIvllVyZvEtE6FB40xiOfUoExWL3M40tfzssyZqpeG_J0TFo7ZhRaDiHC9oxmioMlYVJD0A$3RbIiibgT65kY_CSDiCiUzvHvODrHApbd6ry6YGl5GGOZrs-&CONTENTTYPE=image/jpeg', 'usuarioId': 1}
     ];
 
     constructor(@InjectRepository(NutricionEntity)

@@ -10,14 +10,14 @@ export class RutinaService {
 
 
     listaRutinas = [
-        {'id': 1, 'tipoEjercicio': 'FC Bacerlona', 'peso': 22, 'urlImg': 'https://upload.wikimedia.org/wikipedia/commons/4/47/Barcelona_fc_Logo.png', 'usuarioId': 3},
-        {'id': 2, 'tipoEjercicio': 'Real Madrid', 'peso': 24, 'urlImg': 'https://vignette.wikia.nocookie.net/inciclopedia/images/4/4d/Real_madrid_logo.png/revision/latest?cb=20081102004028', 'usuarioId': 8},
-        {'id': 3, 'tipoEjercicio': 'Juventus', 'peso': 22, 'urlImg': 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Juventus_FC_2017_logo.svg/2000px-Juventus_FC_2017_logo.svg.png', 'usuarioId': 2},
-        {'id': 4, 'tipoEjercicio': 'Milan', 'peso': 21, 'urlImg': 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/2000px-Logo_of_AC_Milan.svg.png', 'usuarioId': 6},
-        {'id': 5, 'tipoEjercicio': 'Manchester United', 'peso': 68, 'urlImg': 'http://pngimg.com/uploads/manchester_united/manchester_united_PNG21.png', 'usuarioId': 4},
-        {'id': 6, 'tipoEjercicio': 'Manchester City', 'peso': 20, 'urlImg': 'http://pluspng.com/img-png/manchester-city-logo-png-manchester-city-supporters-club-logo-410.png', 'usuarioId': 7},
-        { 'id': 7, 'tipoEjercicio': 'FC Bayern Munich', 'peso': 11, 'urlImg': 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg/1200px-FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg.png', 'usuarioId': 5},
-        { 'id': 8, 'tipoEjercicio': 'PSG', 'peso': 2, 'urlImg': 'https://upload.wikimedia.org/wikipedia/fr/thumb/8/86/Paris_Saint-Germain_Logo.svg/768px-Paris_Saint-Germain_Logo.svg.png', 'usuarioId': 1}
+        {'id': 1, 'tipoEjercicio': 'piernas', 'peso': 65, 'urlImg': 'https://http2.mlstatic.com/musculos-de-la-tabla-de-la-pierna-laminado-anatomia-por-anat-D_NQ_NP_695910-MCO26536156556_122017-F.jpg', 'usuarioId': 3},
+        {'id': 2, 'tipoEjercicio': 'pecho', 'peso': 60, 'urlImg': 'http://images.slideplayer.es/27/9150743/slides/slide_88.jpg', 'usuarioId': 8},
+        {'id': 3, 'tipoEjercicio': 'biceps', 'peso': 50, 'urlImg': 'https://www.cambiatufisico.com/wp-content/uploads/anatomia-biceps1.jpg', 'usuarioId': 2},
+        {'id': 4, 'tipoEjercicio': 'hombros', 'peso': 40, 'urlImg': 'https://i.pinimg.com/originals/13/7a/13/137a135013730ceddbb88f636f5448ad.jpg', 'usuarioId': 6},
+        {'id': 5, 'tipoEjercicio': 'triceps', 'peso': 35, 'urlImg': 'https://es.iliveok.com/sites/default/files/trehglavaya-myshca-plecha-triceps-plecha.jpg', 'usuarioId': 4},
+        {'id': 6, 'tipoEjercicio': 'espalda', 'peso': 144, 'urlImg': 'https://www.calistenia.net/wp-content/uploads/2018/02/Musculos-Espalda-421x336.gif', 'usuarioId': 7},
+        { 'id': 7, 'tipoEjercicio': 'abdomen', 'peso': 60, 'urlImg': 'https://i2.wp.com/gymworld.es/wp-content/uploads/2017/05/abdominal-diagram-with-ribs-tag-rib-cage-muscle-anatomy-human-anatomy-diagram1.jpg?fit=1667%2C1279', 'usuarioId': 5},
+        { 'id': 8, 'tipoEjercicio': 'PSG', 'peso': 29, 'urlImg': 'https://upload.wikimedia.org/wikipedia/fr/thumb/8/86/Paris_Saint-Germain_Logo.svg/768px-Paris_Saint-Germain_Logo.svg.png', 'usuarioId': 1}
     ];
 
     constructor(@InjectRepository(RutinaEntity)
